@@ -9,7 +9,7 @@ from django.contrib.auth import get_user_model
 from rest_framework_jwt.authentication import JSONWebTokenAuthentication
 from rest_framework_jwt.serializers import jwt_payload_handler, jwt_encode_handler
 
-from VueDjangoFrameWorkShop.settings import APIKEY
+from DjangoShop.settings import APIKEY
 from rest_framework.response import Response
 from rest_framework import mixins, permissions, authentication
 from rest_framework import viewsets, status

@@ -1,7 +1,7 @@
 # encoding: utf-8
 import time
 
-from VueDjangoFrameWorkShop.settings import private_key_path, ali_pub_key_path
+# from DjangoShop.settings import private_key_path, ali_pub_key_path
 from goods.models import Goods
 from goods.serializers import GoodsSerializer
 from rest_framework import serializers
